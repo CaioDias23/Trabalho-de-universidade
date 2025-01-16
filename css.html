@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TecBlog - O seu Blog de tecnologia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+	<div id="area-cabecalho2">
+		
+		<div id="area-logo">
+			<h1>Conhecimento <span class="branco">Dev <sup>©</sup></span></h1>
+		</div>
+		<div id="area-menu">
+			<a href="index.html">Home</a>
+			<a href="html.html">HTML</a>
+			<a href="css.html">CSS</a>
+			<a href="CrieSeuSite.html">Crie seu site</a>
+			<label class="Login">
+				<a href="login.html">Login</a>
+			</label>
+	  </div>
+	</div>
+
+	<div id="area-principal">
+
+		<div id="area-postagens">
+			
+			<!-- abertura postagem -->
+			<div class="postagem">
+				<h4>Tudo o que você precisa saber sobre CSS.</h4><br>
+				<!---<span class="data-postagem">postado 5 de maio 2024</span> -->
+				<img width="620px" src="imagens/geradores-codigos-CSS.jpg">
+				<p> <br>
+					O CSS (Cascading Style Sheets) é um padrão que define como os dados são apresentados no navegador. Enquanto o HTML fornece informação sobre a estrutura de um documento, o CSS indica o aspecto que ele deve ter: a fonte, o fundo, o texto, as cores dos links, as margens e a disposição dos objetos na página.<br><br>
+					O principal objetivo do desenvolvimento do CSS é separar o conteúdo — seja este escrito em HTML ou outra linguagem de marcação — do design de um documento. Essa separação pode aumentar a acessibilidade dos documentos, proporcionar mais flexibilidade e controle de sua apresentação, bem como reduzir a complexidade e a repetição de conteúdos estruturados. <br><br>
+					Além disso, o CSS permite apresentar o mesmo documento em diferentes estilos ou métodos de saída, como em uma tela, impressão, leitura por voz ou quando a saída utiliza dispositivos que usam Braille.<br><br>
+					
+					<hr><br>
+					
+					<div id="TitulosCSS"><strong> Quais são os tipos de estilos CSS?</strong> </div><br>
+
+					<div id="margem-topicosCSS">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Estilos inline</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+						Os estilos inline oferecem controle máximo sobre todos os elementos de uma página web. Isso se aplica a qualquer tag HTML com o atributo style da seguinte forma:<br><br>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;p style="font: 12pt Courier"&gt; <br><br>Este é um texto com um tamanho de 12 pontos e um estilo de fonte Courier <br><br>&lt;/p&gt;</em><br><br>
+
+					Os estilos inline são úteis quando você precisa ajustar a visualização de algum elemento de uma página ou de um site pequeno.<br><br>
+
+					<div id="margem-topicosCSS">
+					<p>
+						<strong>
+							<ul type="disc">
+								<li>Estilos internos</li>
+							</ul>
+						</strong>
+					</p>
+						<br>
+					</div>
+
+					Os estilos embutidos, ou, internos, aparecem com a tag style, que geralmente é colocada no cabeçalho do documento HTML, ou seja, dentro da tag <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;head&gt;</em>.<br><br>
+					
+					<div id="margem-topicosCSS">
+					<p>
+						<strong>
+							<ul type="disc">
+								<li>Estilos externos</li>
+							</ul>
+						</strong>
+					</p>
+						<br>
+					</div>
+					As folhas de estilo externo são a melhor solução quando você está desenhando um site inteiro em um estilo. A descrição das regras fica em um arquivo separado. <br><br>
+					
+					Use a tag <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;link&gt;</em> para vincular esta folha de estilo a cada página onde ela precisa ser aplicada. Por exemplo:<br><br>
+					
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;link rel=stylesheet href=”sample.css” type=”text/css”&gt;</em><br><br>
+					
+					Qualquer página que contenha um vínculo deste tipo será estilizada para que coincida com os estilos do arquivo sample.css. <br><br>
+					
+					Tenha em mente que a folha de estilo pode permanecer fisicamente em outro servidor e você deve oferecer um caminho para ela no <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">href</em>.
+					<br><br>
+					
+					<div id="TitulosCSS"><strong>Como usar o CSS?</strong> </div><br>
+					
+					O CSS tem uma sintaxe relativamente simples. Primeiro, você especifica um seletor, que seleciona um elemento específico da página (uma tag HTML, classe ou identidade). <br><br>
+					
+					Depois de colocar colchetes, especifique a declaração: as propriedades com seus valores, separadas por dois pontos. As declarações em si ficam separadas por ponto e vírgula.</div><br>
+					
+					<div class="postagem">
+						
+						<div id="TitulosCSS"><strong>Prioridades no CSS</strong></div><br>
+				
+						<div id="margem-topicosCSS2">
+						<p>
+							<strong>
+								<ul type="circle">
+									<li>É dada a máxima prioridade às propriedades com !important no final da declaração.</li><br>
+									<li>Depois vêm os estilos inline, que são definidos com o atributo style da tag.</li><br>
+									<li>Ainda menor é a prioridade dos estilos especificados com a tag style no próprio documento.</li><br>
+									<li>Em seguida, há os estilos anexados ao documento como um arquivo de CSS externo usando a tag</li>
+								</ul>
+							</strong>
+						</p>
+						</div>
+				
+					</p>
+			</div><!--// fechamento postagem -->
+
+		</div>
+		<div id="area-lateral">
+			
+
+			<div class="conteudo-lateral">
+				<h3>Aprimore os seus Conhecimentos</h3>
+				<div class="postagem-lateral">
+					<p>Este site possui, vários exemplos e exercícios práticos para expandir seus conhecimentos e aumentar sua eficiência.</p>
+					<a id="Azul" href="https://www.w3schools.com/">
+						<div id="Cor-do-conteudo-lateral">Saiba mais</div>
+					</a>
+				</div>
+				<div class="postagem-lateral" style="border-bottom: none;">
+					<p>Aumente a velocidade e a eficiência do seu Typing com este site, escreva como um Deus.</p>
+					<a id="Azul" href="https://monkeytype.com/">
+						<div id="Cor-do-conteudo-lateral">Saiba mais</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="conteudo-lateral">
+				<h3>Categorias</h3>
+				
+				
+				<a id="Azul" href="index.html">
+				
+				<div id="Cor-do-conteudo-lateral">Home</div>
+			
+			</a>
+				<a id="Azul" href="html.html">
+					<div id="Cor-do-conteudo-lateral">HTML</div>
+				</a>
+				<a id="Azul" href="CrieSeuSite.html">
+					<div id="Cor-do-conteudo-lateral">Crie seu site</div>
+				</a>
+				
+				<a id="Azul" href="login.html">
+					<div id="Cor-do-conteudo-lateral">Login</div>
+				</a>
+			</div>
+
+			</div>
+
+
+		<div id="rodape">
+			Todos os direitos reservados
+		</div>
+
+	</div>
+
+</body>
+</html>

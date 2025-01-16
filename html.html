@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TecBlog - O seu Blog de tecnologia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+	<div id="area-cabecalho">
+		
+		<div id="area-logo">
+			<h1>Conhecimento <span class="branco">Dev <sup>©</sup></span></h1>
+		</div>
+		<div id="area-menu">
+			<a href="index.html">Home</a>
+			<a href="html.html">HTML</a>
+			<a href="css.html">CSS</a>
+			<a href="CrieSeuSite.html">Crie seu site</a>
+			<label class="Login">
+				<a href="login.html">Login</a>
+			</label>
+	  </div>
+	</div>
+
+	<div id="area-principal">
+
+		<div id="area-postagens">
+			
+			<!-- abertura postagem -->
+			<div class="postagem">
+				<h2>Tudo o que você precisa saber sobre HTML</h2><br>
+				<!---<span class="data-postagem">postado 5 de maio 2024</span> -->
+				<img width="620px" src="imagens/sta-je-html (1).jpg">
+				<p> <br>
+					As tags são os comandos de uma determinada linguagem, em <em style="font-family: monospace;  background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;HTML&gt;</em> todas as tags são escritas entre esses sinais "<" e ">". <br><br> A maioria das tags possuem uma tag de abertura e uma de encerramento, as tags de encerramento possuem uma barra antes do comando da tag, como exemplificado a seguir: <br>
+					<br>
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;html&gt;</em> <-- tag de abertura; <br><br>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;/html&gt;</em> <-- tag de encerramento.<br><br>
+
+					<hr><br>
+					
+					<div id="PrincipaisTagsHTML"><strong> Quais são as Principais tags de HTML?</strong> </div><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Comentários ou &lt;!--   --&gt;</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					Tag que adiciona um comentário. Em um comentário pode-se escrever qualquer coisa, e não será exibido na tela criada. <br><br>É comumente usado para explicar a linha de raciocínio do código escrito, para ajudar os outros devs que estiverem trabalhando no projeto. Sendo exibido desta forma:<br><br>
+					
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;!-- Seu comentário aqui --&gt;</em><br><br>
+
+
+					<div id="margem-topicos">
+					<p>
+						<strong>
+							<ul type="disc">
+								<li>HTML</li>
+							</ul>
+						</strong>
+					</p>
+						<br>
+					</div>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;html&gt;</em>
+					é o elemento base da linguagem HTML, ela é a tag principal de qualquer código, todos os outros elementos estarão dentro desta tag.<br><br>
+
+					<div id="margem-topicos">
+					<p>
+						<strong>
+							<ul type="disc">
+								<li>Head</li>
+							</ul>
+						</strong>
+					</p>
+						<br>
+					</div>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;head&gt;</em>
+					Providência informações gerais (metadados) sobre o documento, incluindo seu título e links para scripts e folhas de estilos.<br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Title</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;title&gt;</em>
+
+					Tag que adiciona um "nome" para a aba do seu website no navegador. <br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Body</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					A tag <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;body&gt;</em> dá acesso ao corpo do site, é aqui que as tags de comando são escritas. São essas que serão exibidas no site. <br><br>
+            
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>h1 à h6</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;h1&gt; à &lt;h6&gt;</em>
+
+					É uma tag de hierarquia de título, em que <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;h1&gt;</em> possui o maior nível hierárquico, e <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;h6&gt;</em> possui o menor.
+					<br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>p</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					A tag <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;p&gt;</em> adiciona um parágrafo. <br><br>
+					
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>br</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;br&gt;</em>
+						
+					Tag responsável pela quebra de linha dentro dos códigos. É uma tag que não necessita de uma tag de encerramento. <br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>b</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;b&gt;</em>
+
+					A tag que transforma o texto em negrito. <br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>i</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;i&gt;</em>
+
+					Tag que transforma o texto em itálico.<br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>u</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;u&gt;</em>
+
+					Tag que acrescenta um sublinhado no que for escrito.<br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Strike</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;strike&gt;</em>
+
+					Tag que risca a palavra. Exemplo: <strike>palavra</strike>. <br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Sub</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;sub&gt;</em>
+
+					tag que marca fragmentos de texto que devam ser renderizados em alinhamento vertical mais baixo em relação ao texto principal.<br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Sup</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;sup&gt;</em>
+
+					Tag que marca fragmentos de texto que devam ser renderizados em alinhamento vertical mais alto em relação ao texto principal.<br><br>
+					
+				</p>
+				
+			</div><!--// fechamento postagem -->
+
+			<!-- abertura postagem -->
+			<div class="postagem">
+				<h2>Tags especiais no HTML:</h2><br>
+				<!-- <span class="data-postagem">postado 2 de maio 2024</span> -->
+				<img width="620px" src="imagens/html-tagst.jpg"><br><br>
+
+				<div id="margem-topicos">
+					<p>
+						<strong>
+							<ul type="disc">
+								<li>Listas Ordenadas e não Ordenadas</li>
+							</ul>
+						</strong>
+					</p>
+						<br>
+					</div>
+
+					A principal função das tags é criar uma lista. A diferença entre elas são que, a tag <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;ul&gt;</em> define uma lista não ordenada. Já a tag <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;ol&gt;</em> tem como função definir uma lista ordenada.
+					<br><br>
+					A lista <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;ul&gt;</em> tem três tipos de modelos, que definem o ícone de marcação de cada item, como:
+					<br><br>
+					<b>circle</b> - círculo não preenchido; <br> <br>
+
+					<b>square</b> – quadrado; <br><br>
+
+					<b>disc</b> - círculo preenchido "padrão". <br><br>
+
+					Exemplo: <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;ul type = " circle "&gt;</em><br><br>
+
+					A lista <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;ol&gt;</em> também possui modelos específicos para os ícones de marcação de cada item, mas, por ser uma lista ordenada, são comuns valores numéricos ou sequências lógicas. Como: <br><br>
+
+					<b>I</b> - Algarismo romano maiúsculo;<br><br>
+
+					<b>i</b> - algarismo romano minúsculo;<br><br>
+
+					<b>a</b> - de A à Z minúsculo;<br><br>
+
+					<b>A</b> - de A à Z maiúsculo;	<br><br>
+
+					<b>1</b> - 1 até o número desejado. <br><br>
+              
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;li&gt;</em> 
+
+					É a tag responsável por definir um item na lista. <br><br>	
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Formulários</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					O elemento <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;form&gt;</em> abre um campo para a criação de um formulário. Possui vários elementos para criar-se o formulário, como as seguintes tags:<br><br>
+
+					<b>Text</b> - criará uma caixa de texto.<br><br>
+
+					<b>Password</b> – Não irá exibir a senha, exibindo pontos ou asteriscos para garantir a privacidade da senha.<br><br>
+
+					<b>Button</b> - criará um botão.<br><br>
+
+					<b>Submit</b> - captura de dados. Exemplo: cadastrar-se em um site exige que você escreva todas as suas informações, como: nome, e-mail, senha, tel. e etc. Basicamente ele enviará todos os dados preenchidos para o site. <br><br>
+
+					<b>value</b> - Define o texto para o botão. <br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>a</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+						
+					A principal função do elemento <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;a&gt;</em> é descrever um link, conectando os diversos documentos de um site e permitindo a navegação por esse conteúdo. Normalmente esses documentos estão relacionados por compartilharem um assunto em comum. <br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Imagens e Figuras</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					O elemento <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;figure&gt;</em> é uma marcação de uso específico para a inserção de uma figura. Para incluir a descrição dessa figura, podemos utilizar o elemento <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;figcaption&gt;</em>. <br><br>
+
+					
+					Elemento que insere de fato a imagem dentro do código é o <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;img&gt;</em>,
+					comumente, dentro da tag <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;figure&gt;</em>. Usado da seguinte forma: <br><br>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;figure&gt;</em><br>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;img src=” alguma_coisa.jpg ”&gt;</em> <br>
+
+					<em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;/figure&gt;</em><br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Table</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+					
+					Uma tabela em HTML começa sempre pela tag <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;table&gt;</em>. A estrutura da tabela fica dentro dessas tags <br><br>
+
+					<strong>Tags semânticas no HTML</strong><br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Header</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					o <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;header&gt;</em> é utilizado para representar o cabeçalho de um documento ou seção declarado no HTML. Nele podemos inserir elementos de <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;h1&gt;</em> a <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;h6&gt;</em>, até elementos para representar imagens, parágrafos ou mesmo listas de navegação. <br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>nav</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					Utiliza-se <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;nav&gt;</em>
+					quando deseja-se representar um agrupamento de links de navegação, que, por sua vez, são criados com os elementos <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;ul&gt;,&lt;li&gt; e &lt;a&gt;</em>. <br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>em</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+
+					O elemento <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;em&gt;</em>
+					é utilizado quando desejamos enfatizar um trecho ou palavra no texto, indicando que ela contribui de forma mais relevante para o sentido/compreensão do conteúdo.<br><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>Strong</li>
+								</ul>
+							</strong>
+						</p>
+							<br>
+						</div>
+						
+						O elemento <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;strong&gt;</em> também é utilizado para destacar uma parte do texto. Sua principal diferença em relação ao elemento <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;em&gt;</em> é que <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;em&gt;</em> pode alterar o propósito de uma frase, como vimos anteriormente.<br><br>
+
+
+				</p>
+			</div><!--// fechamento postagem -->
+
+		</div>
+		<div id="area-lateral">
+			
+
+			<div class="conteudo-lateral">
+				<h3>Aprimore os seus Conhecimentos</h3>
+				<div class="postagem-lateral">
+					<p>Este site possui, vários exemplos e exercícios práticos para expandir seus conhecimentos e aumentar sua eficiência.</p>
+					<a href="https://www.w3schools.com/">Saiba  mais</a>
+				</div>
+				<div class="postagem-lateral" style="border-bottom: none;">
+					<p>Aumente a velocidade e a eficiência do seu Typing com este site, escreva como um Deus.</p>
+					<a href="https://monkeytype.com/">Saiba mais</a>
+				</div>
+			</div>
+
+			<div class="conteudo-lateral">
+				<h3>Categorias</h3>
+				
+				<a href="index.html">Home</a><br>
+				<a href="css.html">CSS</a><br>
+				<a href="CrieSeuSite.html">Crie seu site</a><br>
+				<a href="login.html">Login</a>
+
+			</div>
+
+
+		</div>
+
+		<div id="rodape">
+			Todos os direitos reservados
+		</div>
+
+	</div>
+
+</body>
+</html>

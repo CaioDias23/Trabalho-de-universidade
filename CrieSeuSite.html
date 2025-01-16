@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TecBlog - O seu Blog de tecnologia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+	<div id="area-cabecalho">
+		
+		<div id="area-logo2">
+			<h1>Conhecimento <span class="branco">Dev <sup>©</sup></span></h1>
+		</div>
+		<div id="area-menu">
+			<a href="index.html">Home</a>
+			<a href="html.html">HTML</a>
+			<a href="css.html">CSS</a>
+			<a href="CrieSeuSite.html">Crie seu site</a>
+			<label class="Login">
+				<a href="login.html">Login</a>
+			</label>
+	  </div>
+	</div>
+
+	<div id="area-principal">
+
+		<div id="area-postagem">
+			
+			<!-- abertura postagem -->
+			<div class="postagem">
+				<h2>Crie seu primeiro website com o que aprendeu!</h2><br>
+				
+        <p>Depois de sua jornada de aprendizado no Conhecimento Dev <sup>©</sup>, que tal criar o seu primeiro website com base no que aprendeu? Guiaremos os passos principais para a criação de um site simples, justificando algumas escolhas e apontando as modificações que o projeto fique com sua cara. <br><br>
+					
+					A maioria dos pontos não será expressa de forma muito detalhada, caso qualquer dúvida, retorne as páginas HTML e CSS do nosso site, e não se esqueça dos links que podem ampliar seus conhecimentos, localizados ao lado direito das abas do site.</p><br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>1° Passo:</li>
+								</ul>
+							</strong>
+						</p>
+						<br>
+					</div>
+					
+					<p>Escreva uma exclamação  <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">"!"</em>  em seu editor de código para criar uma básica estrutura html, contendo suas principais tags inseridas. Ficará desta forma:</p><br>
+
+					<div class="card">
+						<div class="titlebar">
+							<span class="buttons">
+								<button class="minimize">
+									<svg x="0px" y="0px" viewBox="0 0 10.2 1"><rect x="0" y="50%" width="10.2" height="1"></rect></svg>
+								</button>
+								<button class="maximize">
+									<svg viewBox="0 0 10 10"><path d="M0,0v10h10V0H0z M9,9H1V1h8V9z"></path></svg>
+								</button>
+								<button class="close">
+									<svg viewBox="0 0 10 10"><polygon points="10.2,0.7 9.5,0 5.1,4.4 0.7,0 0,0.7 4.4,5.1 0,9.5 0.7,10.2 5.1,5.8 9.5,10.2 10.2,9.5 5.8,5.1"></polygon></svg>
+								</button>
+							</span>
+						</div>
+						<div class="cppcode">
+							<pre id="pre"><code><span class="pre">&lt;!DOCTYPE</span> <span class="s4">html&gt;</span>
+<span class="s1">&lt;html</span><span class="s2"> lang</span> <span class="s5">=</span> <span class="pre">"pt-br"<span class="s1">&gt;</span>
+<span class="s1">&lt;head&gt;</span>
+   <span class="s1">&lt;meta</span> <span class="s2">charset</span> <span class="s5">=</span class="pre"> "UTF-8"<span class="s1">&gt;</span></span>
+   <span class="s1">&lt;meta</span>= <span class="pre">"viewport"</span> <span class="s2">content</span>=<span class="pre">"width=device-width, initial-scale=1.0"<span class="s1">&gt;</span></span>
+   <span class="s1">&lt;title&gt;</span> <span class="s5">Site Simples</span> <span class="s1">&lt;title&gt;</span>
+<span class="s1">&lt;/head&gt;</span>
+<span class="s1">&lt;body&gt;</span>
+<span class="s1">&lt;/body&gt;</span>
+<span class="s1">&lt;/html&gt;</span></div>
+					</div>
+					<br>
+
+					<div id="margem-topicos">
+						<p>
+							<strong>
+								<ul type="disc">
+									<li>2° Passo:</li>
+								</ul>
+							</strong>
+						</p>
+						<br>
+					</div>
+					
+					<p>Neste passo, adicionaremos a tag <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;style&gt;</em> dentro do <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;head&gt;</em>, para que possamos, assim, fazer a estilização dos recursos sem a necessidade de um arquivo CSS externo. Ficará desta forma:</p><br>
+
+					
+					<div class="card">
+						<div class="titlebar">
+							<span class="buttons">
+								<button class="minimize">
+									<svg x="0px" y="0px" viewBox="0 0 10.2 1"><rect x="0" y="50%" width="10.2" height="1"></rect></svg>
+								</button>
+								<button class="maximize">
+									<svg viewBox="0 0 10 10"><path d="M0,0v10h10V0H0z M9,9H1V1h8V9z"></path></svg>
+								</button>
+								<button class="close">
+									<svg viewBox="0 0 10 10"><polygon points="10.2,0.7 9.5,0 5.1,4.4 0.7,0 0,0.7 4.4,5.1 0,9.5 0.7,10.2 5.1,5.8 9.5,10.2 10.2,9.5 5.8,5.1"></polygon></svg>
+								</button>
+							</span>
+						</div>
+						<div class="cppcode">
+							<pre id="pre"><code><span class="pre">&lt;!DOCTYPE</span> <span class="s4">html&gt;</span>
+<span class="s1">&lt;html</span><span class="s2"> lang</span> <span class="s5">=</span> <span class="pre">"pt-br"<span class="s1">&gt;</span></span>
+<span class="s1">&lt;head&gt;</span>
+   <span class="s1">&lt;meta</span> <span class="s2">charset</span> <span class="s5">=</span class="pre"> "UTF-8"<span class="s1">&gt;</span></span>
+   <span class="s1">&lt;meta</span>= <span class="pre">"viewport"</span> <span class="s2">content</span>=<span class="pre">"width=device-width, initial-scale=1.0"<span class="s1">&gt;</span></span>
+   <span class="s1">&lt;title&gt;</span> <span class="s5">Site Simples</span> <span class="s1">&lt;title&gt;</span>
+      <span class="s1">&lt;style&gt;</span>
+	   <span class="s1">body</span><span class="s5"> { </span>
+                <span class="s2">font-family</span><span class="s5"> : Arial, sans-serif;</span> <span class="s5">=</span> 
+                <span class="s2">margin</span><span class="s5">:</span> <span class="s2">0</span><span class="s5">;</span>
+                <span class="s2">padding</span><span class="s5">:</span> <span class="s2">0</span><span class="s5">;</span>
+                <span class="s2">background-color</span><span class="s5">:</span> <span class="s2">"#f4f4f4"</span><span class="s5">;</span> 
+                <span class="s5">}</span>
+
+	   <span class="s2">.container</span><span class="s5"> { </span>
+		<span class="s2">width</span><span class="s5">:</span> <span class="s2">80%</span><span class="s5">;</span>
+		<span class="s2">margin</span><span class="s5">:</span> <span class="s5">auto</span><span class="s5">;</span>
+		<span class="s2">overflow</span><span class="s5">:</span> <span class="s5">hidden</span><span class="s5">;</span>
+		<span class="s5">}</span>
+									
+	   <span class="s1">header </span><span class="s5"> { </span>
+		<span class="s2">background</span><span class="s5"> :</span> <span class="s2">50b3a2</span><span class="s5">; </span>
+	        <span class="s2">color</span><span class="s5">:</span> <span class="s2">#ffffff</span><span class="s5">;</span>
+		<span class="s2">padding-top</span><span class="s5">:</span> <span class="s2">30px</span><span class="s5">;</span>
+		<span class="s2">min-height</span><span class="s5">:</span> <span class="s2">70px</span><span class="s5">;</span>
+		<span class="s2">border-bottom</span><span class="s5">:</span> <span class="s2">#e8491d 3px</span><span class="s5"> solid</span><span class="s5">;</span> 
+		<span class="s5">}</span>
+										
+	   <span class="s1">header a</span><span class="s5"> { </span>
+		<span class="s2">color</span><span class="s5"> :</span> <span class="s2">#ffffff</span><span class="s5">; </span>
+		<span class="s2">text-decoration</span><span class="s5">:</span> <span class="s5">none</span><span class="s5">;</span>
+		<span class="s2">text-transform</span><span class="s5">:</span> <span class="s5">uppercase</span><span class="s5">;</span>
+		<span class="s2">font-size</span><span class="s5">:</span> <span class="s2">16px</span><span class="s5">;</span>
+		<span class="s5">}</span>
+		
+	   <span class="s1">header ul</span><span class="s5"> { </span>
+		<span class="s2">padding</span><span class="s5"> :</span> <span class="s2">0</span><span class="s5">; </span>
+		<span class="s2">list-style</span><span class="s5">:</span> <span class="s5">none</span><span class="s5">;</span>
+		<span class="s5">}</span>
+		
+	   <span class="s1">header li</span><span class="s5"> { </span>
+		<span class="s2">display</span><span class="s5"> :</span> <span class="s5">inline</span><span class="s5">; </span>
+		<span class="s2">padding</span><span class="s5">:</span> <span class="s2">0 20px 0 20px</span><span class="s5">;</span>
+		<span class="s5">}</span>
+
+	   <span class="s1">header </span><span class="pre">#branding</span><span class="s5"> { </span>
+		<span class="s2">float</span><span class="s5"> :</span> <span class="s5">right</span><span class="s5">; </span>
+		<span class="s5">}</span>
+		
+	   <span class="s1">header </span><span class="pre">#branding</span><span class="s1"> h1</span><span class="s5"> { </span>
+		<span class="s2">margin</span><span class="s5"> :</span> <span class="s5">0</span><span class="s5">; </span>
+		<span class="s5">}</span>
+		
+	   <span class="s1">header nav </span></span><span class="s5"> { </span>
+		<span class="s2">float</span><span class="s5"> :</span> <span class="s5">right</span><span class="s5">; </span>
+		<span class="s2">margin-top</span><span class="s5"> :</span> <span class="s2">10px</span><span class="s5">; </span>
+		<span class="s5">}</span>
+			
+	   <span class="s1">header </span><span class="s2">.highlight</span><span class="s5">,</span></span><span class="s1"> header</span></span><span class="s2">.current</span></span><span class="s1"> a</span><span class="s5"> { </span>
+		<span class="s2">color</span><span class="s5"> :</span> <span class="s2">#e8491d</span><span class="s5">; </span>
+		<span class="s2">font-weight</span><span class="s5"> :</span> <span class="s5">bold</span><span class="s5">; </span>
+		<span class="s5">}</span>
+      <span class="s1">&lt;/style&gt;</span>
+<span class="s1">&lt;/head&gt;</span>
+<span class="s1">&lt;body&gt;</span>
+<span class="s1">&lt;/body&gt;</span>
+<span class="s1">&lt;/html&gt;</span></div>
+							</div>
+							<br><br>
+
+							<div id="margem-topicos">
+								<p>
+									<strong>
+										<ul type="disc">
+											<li>3° Passo:</li>
+										</ul>
+									</strong>
+								</p>
+								<br>
+							</div>
+
+							<p>Agora, vamos inserir alguns elementos no <em style="font-family: monospace; background-color: #d9f5f9; color: #0f8593; border-radius: 4px; font-style: normal;">&lt;body&gt;</em>, que serão visiveis e alguns interagíveis. Desta maneira:</p>
+							<br>
+							<div class="card">
+								<div class="titlebar">
+									<span class="buttons">
+										<button class="minimize">
+											<svg x="0px" y="0px" viewBox="0 0 10.2 1"><rect x="0" y="50%" width="10.2" height="1"></rect></svg>
+										</button>
+										<button class="maximize">
+											<svg viewBox="0 0 10 10"><path d="M0,0v10h10V0H0z M9,9H1V1h8V9z"></path></svg>
+										</button>
+										<button class="close">
+											<svg viewBox="0 0 10 10"><polygon points="10.2,0.7 9.5,0 5.1,4.4 0.7,0 0,0.7 4.4,5.1 0,9.5 0.7,10.2 5.1,5.8 9.5,10.2 10.2,9.5 5.8,5.1"></polygon></svg>
+										</button>
+									</span>
+								</div>
+								<div class="cppcode">
+						<pre id="pre"><code><span class="pre">&lt;!DOCTYPE</span> <span class="s4">html&gt;</span>
+<span class="s1">&lt;html</span><span class="s2"> lang</span> <span class="s5">=</span> <span class="pre">"pt-br"<span class="s1">&gt;</span></span>
+<span class="s1">&lt;head&gt;</span>
+   <span class="s1">&lt;meta</span> <span class="s2">charset</span> <span class="s5">=</span class="pre"> "UTF-8"<span class="s1">&gt;</span></span>
+   <span class="s1">&lt;meta</span>= <span class="pre">"viewport"</span> <span class="s2">content</span>=<span class="pre">"width=device-width, initial-scale=1.0"<span class="s1">&gt;</span></span>
+   <span class="s1">&lt;title&gt;</span> <span class="s5">Site Simples</span> <span class="s1">&lt;title&gt;</span>
+      <span class="s1">&lt;style&gt;</span>
+	   <span class="s1">body</span><span class="s5"> { </span>
+                <span class="s2">font-family</span><span class="s5"> : Arial, sans-serif;</span> <span class="s5">=</span> 
+                <span class="s2">margin</span><span class="s5">:</span> <span class="s2">0</span><span class="s5">;</span>
+                <span class="s2">padding</span><span class="s5">:</span> <span class="s2">0</span><span class="s5">;</span>
+                <span class="s2">background-color</span><span class="s5">:</span> <span class="s2">"#f4f4f4"</span><span class="s5">;</span> 
+                <span class="s5">}</span>
+								
+	   <span class="s2">.container</span><span class="s5"> { </span>
+		<span class="s2">width</span><span class="s5">:</span> <span class="s2">80%</span><span class="s5">;</span>
+		<span class="s2">margin</span><span class="s5">:</span> <span class="s5">auto</span><span class="s5">;</span>
+		<span class="s2">overflow</span><span class="s5">:</span> <span class="s5">hidden</span><span class="s5">;</span>
+		<span class="s5">}</span>
+									
+            <span class="s1">header </span><span class="s5"> { </span>
+		<span class="s2">background</span><span class="s5"> :</span> <span class="s2">50b3a2</span><span class="s5">; </span>
+	        <span class="s2">color</span><span class="s5">:</span> <span class="s2">#ffffff</span><span class="s5">;</span>
+		<span class="s2">padding-top</span><span class="s5">:</span> <span class="s2">30px</span><span class="s5">;</span>
+		<span class="s2">min-height</span><span class="s5">:</span> <span class="s2">70px</span><span class="s5">;</span>
+		<span class="s2">border-bottom</span><span class="s5">:</span> <span class="s2">#e8491d 3px</span><span class="s5"> solid</span><span class="s5">;</span> 
+		<span class="s5">}</span>
+										
+	    <span class="s1">header a</span><span class="s5"> { </span>
+		<span class="s2">color</span><span class="s5"> :</span> <span class="s2">#ffffff</span><span class="s5">; </span>
+		<span class="s2">text-decoration</span><span class="s5">:</span> <span class="s5">none</span><span class="s5">;</span>
+		<span class="s2">text-transform</span><span class="s5">:</span> <span class="s5">uppercase</span><span class="s5">;</span>
+		<span class="s2">font-size</span><span class="s5">:</span> <span class="s2">16px</span><span class="s5">;</span>
+		<span class="s5">}</span>
+		
+	    <span class="s1">header ul</span><span class="s5"> { </span>
+		<span class="s2">padding</span><span class="s5"> :</span> <span class="s2">0</span><span class="s5">; </span>
+		<span class="s2">list-style</span><span class="s5">:</span> <span class="s5">none</span><span class="s5">;</span>
+		<span class="s5">}</span>
+		
+	    <span class="s1">header li</span><span class="s5"> { </span>
+		<span class="s2">display</span><span class="s5"> :</span> <span class="s5">inline</span><span class="s5">; </span>
+		<span class="s2">padding</span><span class="s5">:</span> <span class="s2">0 20px 0 20px</span><span class="s5">;</span>
+		<span class="s5">}</span>
+
+	    <span class="s1">header </span><span class="pre">#branding</span><span class="s5"> { </span>
+		<span class="s2">float</span><span class="s5"> :</span> <span class="s5">right</span><span class="s5">; </span>
+		<span class="s5">}</span>
+		
+	    <span class="s1">header </span><span class="pre">#branding</span><span class="s1"> h1</span><span class="s5"> { </span>
+		<span class="s2">margin</span><span class="s5"> :</span> <span class="s5">0</span><span class="s5">; </span>
+		<span class="s5">}</span>
+		
+	    <span class="s1">header nav </span></span><span class="s5"> { </span>
+		<span class="s2">float</span><span class="s5"> :</span> <span class="s5">right</span><span class="s5">; </span>
+		<span class="s2">margin-top</span><span class="s5"> :</span> <span class="s2">10px</span><span class="s5">; </span>
+		<span class="s5">}</span>
+			
+	    <span class="s1">header </span><span class="s2">.highlight</span><span class="s5">,</span></span><span class="s1"> header</span></span><span class="s2">.current</span></span><span class="s1"> a</span><span class="s5"> { </span>
+		<span class="s2">color</span><span class="s5"> :</span> <span class="s2">#e8491d</span><span class="s5">; </span>
+		<span class="s2">font-weight</span><span class="s5"> :</span> <span class="s5">bold</span><span class="s5">; </span>
+		<span class="s5">}</span>
+				
+      <span class="s1">&lt;/style&gt;</span>
+<span class="s1">&lt;/head&gt;</span>
+  <span class="s1">&lt;body&gt;</span>
+   <span class="s1">&lt;header&gt;</span>
+      <span class="s1">&lt;div</span> <span class="s2">class</span><span class="s5">=</span> <span class="pre">"container"</span><span class="s5">></span>
+	  <span class="s1">&lt;div</span> <span class="s2">id</span><span class="s5">=</span> <span class="pre">"branding"</span><span class="s5">></span>
+	    <span class="s1">&lt;h1&gt;</span> <span class="s1">&lt;span</span> <span class="s2">class</span><span class="s5">=</span> <span class="pre">"highlight"</span><span class="s5">></span><span class="s5">Meu</span><span class="s1">&lt;/span&gt;</span> <span class="s5">Site</span> <span class="s1">&lt;/h1&gt;</span>
+	  <span class="s1">&lt;/div&gt;</span>
+        <span class="s1">&lt;nav&gt;</span>
+	  <span class="s1">&lt;ul&gt;</span>
+	    <span class="s1">&lt;li</span> <span class="s2">class</span><span class="s5">=</span> <span class="pre">"current"</span><span class="s5">><span class="s5"></span><span class="s1">a</span></span><span class="s2"> href</span><span class="s5">=</span><span class="pre">"index.html"</span><span class="s5">>Home</span><span class="s5">&lt;/</span><span class="s1">a</span><span class="s5">></span><span class="s5"></span><span class="s1">li</span><span class="s5">></span>
+	    <span class="s1">&lt;li&gt;</span> <span class="s5"></span><span class="s1">a</span> <span class="s2">href</span><span class="s5">=<span class="s2">"sobre.html"</span><span class="s5">>Sobre</span><span class="s5"><span class="s5">&lt;/</span><span class="s1">a</span><span class="s5">></span><span class="s5"></span><span class="s1">li</span><span class="s5">></span>
+	    <span class="s1">&lt;li&gt;</span> <span class="s5"></span><span class="s1">a</span> <span class="s2">href</span><span class="s5">=<span class="s2">"contato.html"</span><span class="s5">>Contato</span><span class="s5"><span class="s5">&lt;/</span><span class="s1">a</span><span class="s5">></span><span class="s5"></span><span class="s1">li</span><span class="s5">></span>
+	  <span class="s1">&lt;/ul&gt;</span>
+	<span class="s1">&lt;/nav&gt;</span>
+      <span class="s1">&lt;/div&gt;</span>
+   <span class="s1">&lt;/header&gt;</span>
+	<span class="s1">&lt;div</span> <span class="s2">class</span><span class="s5">=</span> <span class="pre">"container"</span><span class="s5">></span>
+	    <span class="s7">&lt;!-- Adicione seu conteúdo aqui --&gt;</span>
+	    <span class="s5"></span><span class="s1">h1</span><span class="s5">></span><span class="s5">Bem-vindo ao Meu Site!</span><span class="s5">&lt;/</span><span class="s1">h1</span><span class="s5">></span>
+	    <span class="s5"></span><span class="s1">p</span><span class="s5">></span><span class="s5">Este é um exemplo de um site simples usando HTML e CSS.</span><span class="s5">&lt;/</span><span class="s1">p</span><span class="s5">></span>
+	<span class="s1">&lt;/div&gt;</span>
+  <span class="s1">&lt;/body&gt;</span>
+<span class="s1">&lt;/html&gt;</span></code></pre></div>
+	</div><br>
+	<p>Após os passos, seu site deve ficar com este aspecto:<a href="SiteCriado.html"><div id="CorLinkHOME">SeuSite</div></a></p>
+</div>
+</div>
+
+<div id="rodape">
+	<p>Todos os direitos reservados</p>
+
+
+
+
+	
+</body>
+</html>
